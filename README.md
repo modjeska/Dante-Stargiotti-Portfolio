@@ -4,4 +4,4 @@
      - CSS Elements have been consolidated.
      - Alt ids added.
 
-![final project screenshot] (https://raw.githubusercontent.com/modjeska/modjeska.github.io-dante-2022-portfolio/main/screenshot.jpg)
+![screenshot](https://user-images.githubusercontent.com/105169042/168973959-da6dd518-be91-4cb3-adcf-a0f0d52f1987.jpg)
