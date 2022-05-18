@@ -1,0 +1,57 @@
+{
+    "editor.tabSize": 2,
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 18,
+    "editor.cursorBlinking": "phase",
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "javascript.validate.enable": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.sideBar.location": "left",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "standard.autoFixOnSave": true,
+    "standard.enable": true,
+    "standard.validate": [
+      "javascript",
+      "javascriptreact"
+    ],
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "files.associations": {
+      "*.js": "javascriptreact"
+    },
+    "guides.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "html.suggest.html5": true,
+    "workbench.colorTheme": "Hopscotch Classic",
+    "git.enableSmartCommit": true,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "eslint.enable": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.defaultProfile.windows": "C:\\Program Files\\Git\\bin\\bash.exe (migrated)",
+    "terminal.integrated.profiles.windows": {
+      "C:\\Program Files\\Git\\bin\\bash.exe (migrated)": {
+        "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "args": []
+      }
+    },
+    "git.confirmSync": false,
+    "window.zoomLevel": 2
+  }
