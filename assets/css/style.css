@@ -81,6 +81,7 @@ button:hover {
 }
 
 .main-section {
+    display: block;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 30px;
@@ -95,7 +96,8 @@ button:hover {
 }
 
 .main-card {
-    position: relative;
+    display: flex;
+    justify-content: center; 
     margin-top: 20px;
     transition:all 0.3s ease;
     -webkit-transition:all 0.3s ease;
@@ -109,28 +111,23 @@ button:hover {
 }
 
 .main-section-card {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .main-image {
-    width: auto;
-    height: 90%;
+    width: 50%;
     border: solid 15px rgb(83, 117, 255);
     object-fit: contain;
 }
 
 .main-block {
     position: absolute;
-    bottom: 35px;
-    right: 35px;
     background-color: rgb(255, 255, 255);
     color: rgb(83, 117, 255);
     border: solid 10px rgb(83, 117, 255);
     font-family: 'Akshar', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -205,7 +202,7 @@ button:hover {
 .works-title {
     font-family: 'Akshar', sans-serif;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 150px;
     color: rgb(83, 117, 255);
     border-bottom-style: solid;
     text-align: center;
@@ -333,20 +330,31 @@ footer {
   
   @media screen and (max-width: 992px) {
     .text-block,
-    .main-block,
     footer {
-        position: relative;
         font-size: 25px;
     }
   }
 
-
-
-  /* @media screen and (max-width: 768px) {
-    li,
-    a,
-    button,
-    .header-title {
-        font-size: 20px;
+  @media screen and (max-width: 1380px) {
+    .main-image {
+        display: none;
     }
-  } */
+  }
+  @media screen and (max-width: 1380px) {
+    .works-title{
+        font-size: 50px;
+    }
+  }
+ 
+  @media screen and (max-width: 1380px) {
+    .main-block {
+        position: sticky;
+    }
+  }
+ 
+  @media screen and (max-width: 1380px) {
+    .text-block {
+        position: static;
+    }
+  }
+ 
